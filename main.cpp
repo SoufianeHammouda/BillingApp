@@ -200,11 +200,11 @@ int get_TimberLand()
 
     cout<<"\tWe have quality Shoes of one year Guarantee"<<endl;
 
-    cout<<"The Price for One Shoe is: "<<timberlandShoePrice<<endl;
+    cout<<"The Price for One Shoe is : "<<timberlandShoePrice<<endl;
 
-    cout<<"The quantity we have is: "<<adidasShoeQty<<endl;
+    cout<<"The quantity we have is : "<<adidasShoeQty<<endl;
 
-    cout<<"\tEnter the Quantity You Want to Purchase"<<endl;
+    cout<<"\tEnter the Quantity You Want to Purchase "<<endl;
 
     cin>>timberlandShoeQty1;
 
@@ -218,14 +218,14 @@ int get_TimberLand()
 
         cout<<"\t You've Entered "<<timberlandShoeQty1<<"Quantity"<<endl;
 
-        cout<<"Your cost is: "<<adidasShoeQty*timberlandShoePrice<<endl;
+        cout<<"Your cost is : "<<adidasShoeQty*timberlandShoePrice<<endl;
 
-        cout<<"Your tax payment is: "<<(adidasShoeQty*timberlandShoePrice)*tax<<endl;
+        cout<<"Your tax payment is : "<<(adidasShoeQty*timberlandShoePrice)*tax<<endl;
 
-        cout<<"Your Total Cost is: "<<(adidasShoeQty*timberlandShoePrice);
+        cout<<"Your Total Cost is : "<<(adidasShoeQty*timberlandShoePrice);
         cout<< + ((adidasShoeQty*timberlandShoePrice)*tax)<<endl;
 
-        cout<<"\tDo You Want to us to deliver the goods to you?"<<endl;
+        cout<<"\tDo You Want to us to deliver the goods to you? "<<endl;
 
         cout<<"\t\t\tEnter\n1-For Yes\n\t\t\t2-For No"<<endl;
 
@@ -233,9 +233,9 @@ int get_TimberLand()
 
         if(choice==1)
         {
-            cout<<"Your Delivery cost is: "<<deliveryCost<<endl;
+            cout<<"Your Delivery cost is : "<<deliveryCost<<endl;
 
-            cout<<"Your Ground Total cost is: "<<(adidasShoeQty*timberlandShoePrice);
+            cout<<"Your Ground Total cost is : "<<(adidasShoeQty*timberlandShoePrice);
             cout<< + ((adidasShoeQty*timberlandShoePrice)*tax) + deliveryCost<<endl;
 
             cout<<"Thank you for patronizing us; we will deliver it to you within 24hours"<<endl;
@@ -286,7 +286,7 @@ int get_TimberLand()
      }
 
       else if(choice==2){
-            cout<<"Thank you once again for Patronizing us!\n\t\t\t Bye!!!"<<endl;
+            cout<<"Thank you once again for Patronizing us! \n\t\t\t Bye!!!"<<endl;
 
         }
 }
@@ -298,9 +298,9 @@ int get_Adidas()
 
     cout<<"\tWe have quality Shoes of one year Guarantee"<<endl;
 
-    cout<<"The Price for One Shoe is: "<<adidasShoePrice<<endl;
+    cout<<"The Price for One Shoe is : "<<adidasShoePrice<<endl;
 
-    cout<<"The quantity we have is: "<<adidasShoeQty<<endl;
+    cout<<"The quantity we have is : "<<adidasShoeQty<<endl;
 
     cout<<"\tEnter the Quantity You Want to Purchase"<<endl;
 
@@ -309,21 +309,21 @@ int get_Adidas()
     if(adidasShoeQty1>adidasShoeQty)
     {
 
-       cout<< "Sorry we have only: "<<adidasShoeQty<<"in the store and you cannot order for more than that"<<endl;
+       cout<< "Sorry we have only : "<<adidasShoeQty<<"in the store and you cannot order for more than that"<<endl;
     }
 
     else{
 
         cout<<"\t You've Entered "<<adidasShoeQty1<<"Quantity"<<endl;
 
-        cout<<"Your cost is: "<<adidasShoeQty*adidasShoePrice<<endl;
+        cout<<"Your cost is : "<<adidasShoeQty*adidasShoePrice<<endl;
 
-        cout<<"Your tax payment is: "<<(adidasShoeQty*adidasShoePrice)*tax<<endl;
+        cout<<"Your tax payment is : "<<(adidasShoeQty*adidasShoePrice)*tax<<endl;
 
-        cout<<"Your Total Cost is: "<<(adidasShoeQty*adidasShoePrice);
+        cout<<"Your Total Cost is : "<<(adidasShoeQty*adidasShoePrice);
         cout<< + ((adidasShoeQty*adidasShoePrice)*tax)<<endl;
 
-        cout<<"\tDo You Want to us to deliver the goods to you?"<<endl;
+        cout<<"\tDo You Want to us to deliver the goods to you? "<<endl;
 
         cout<<"\t\t\tEnter \n1-For Yes\n\t\t\t2-For No"<<endl;
 
@@ -331,9 +331,9 @@ int get_Adidas()
 
         if(choice==1)
         {
-            cout<<"Your Delivery cost is: "<<deliveryCost<<endl;
+            cout<<"Your Delivery cost is : "<<deliveryCost<<endl;
 
-            cout<<"Your Ground Total cost is: "<<(adidasShoeQty*adidasShoePrice);
+            cout<<"Your Ground Total cost is : "<<(adidasShoeQty*adidasShoePrice);
             cout<< + ((adidasShoeQty*adidasShoePrice)*tax) + deliveryCost<<endl;
 
             cout<<"Thank you for patronizing us; we will deliver it to you within 24hours"<<endl;
@@ -395,9 +395,9 @@ int get_Nike()
 
     cout<<"\tWe have quality Shoes of one year Guarantee"<<endl;
 
-    cout<<"The Price for One Shoe is: "<<nikeShoePrice<<endl;
+    cout<<"The Price for One Shoe is : "<<nikeShoePrice<<endl;
 
-    cout<<"The quantity we have is: "<<nikeShoeQty<<endl;
+    cout<<"The quantity we have is : "<<nikeShoeQty<<endl;
 
     cout<<"\tEnter the Quantity You Want to Purchase"<<endl;
 
@@ -406,7 +406,7 @@ int get_Nike()
     if(nikeShoeQty1>nikeShoeQty)
     {
 
-       cout<< "Sorry we have only: "<<nikeShoeQty<<"in the store and you cannot order for more than that"<<endl;
+       cout<< "Sorry we have only : "<<nikeShoeQty<<"in the store and you cannot order for more than that"<<endl;
     }
 
     else{
@@ -415,9 +415,9 @@ int get_Nike()
 
         cout<<"Your cost is: "<<nikeShoeQty*nikeShoePrice<<endl;
 
-        cout<<"Your tax payment is: "<<(nikeShoeQty*nikeShoePrice)*tax<<endl;
+        cout<<"Your tax payment is : "<<(nikeShoeQty*nikeShoePrice)*tax<<endl;
 
-        cout<<"Your Total Cost is: "<<(nikeShoeQty*nikeShoePrice);
+        cout<<"Your Total Cost is : "<<(nikeShoeQty*nikeShoePrice);
         cout<< + ((nikeShoeQty*nikeShoePrice)*tax)<<endl;
 
         cout<<"\tDo You Want to us to deliver the goods to you?"<<endl;
@@ -428,9 +428,9 @@ int get_Nike()
 
         if(choice==1)
         {
-            cout<<"Your Delivery cost is: "<<deliveryCost<<endl;
+            cout<<"Your Delivery cost is : "<<deliveryCost<<endl;
 
-            cout<<"Your Ground Total cost is: "<<(nikeShoeQty*nikeShoePrice);
+            cout<<"Your Ground Total cost is : "<<(nikeShoeQty*nikeShoePrice);
             cout<< + ((nikeShoeQty*nikeShoePrice)*tax) + deliveryCost<<endl;
 
             cout<<"Thank you for patronizing us; we will deliver it to you within 24hours"<<endl;
@@ -495,29 +495,29 @@ int get_Versace()
 
     cout<<"\tWe have quality Shirts of one year Guarantee"<<endl;
 
-    cout<<"The Price for One Shirts is: "<<versacePrice<<endl;
+    cout<<"The Price for One Shirts is : "<<versacePrice<<endl;
 
-    cout<<"The quantity we have is: "<<versaceQuantity<<endl;
+    cout<<"The quantity we have is : "<<versaceQuantity<<endl;
 
-    cout<<"\tEnter the Quantity You Want to Purchase"<<endl;
+    cout<<"\tEnter the Quantity You Want to Purchase "<<endl;
 
     cin>>versaceQuantity1;
 
     if(versaceQuantity1>versaceQuantity)
     {
 
-       cout<< "Sorry we have only: "<<versaceQuantity<<"in the store and you cannot order for more than that"<<endl;
+       cout<< "Sorry we have only : "<<versaceQuantity<<"in the store and you cannot order for more than that"<<endl;
     }
 
     else{
 
         cout<<"\t You've Entered "<<versaceQuantity1<<"Quantity"<<endl;
 
-        cout<<"Your cost is: "<<versaceQuantity*versacePrice<<endl;
+        cout<<"Your cost is : "<<versaceQuantity*versacePrice<<endl;
 
-        cout<<"Your tax payment is: "<<(versaceQuantity*versacePrice)*tax<<endl;
+        cout<<"Your tax payment is : "<<(versaceQuantity*versacePrice)*tax<<endl;
 
-        cout<<"Your Total Cost is: "<<(versaceQuantity*versacePrice);
+        cout<<"Your Total Cost is : "<<(versaceQuantity*versacePrice);
         cout<< + ((versaceQuantity*versacePrice)*tax)<<endl;
 
         cout<<"\tDo You Want to us to deliver the goods to you?"<<endl;
@@ -528,9 +528,9 @@ int get_Versace()
 
         if(choice==1)
         {
-            cout<<"Your Delivery cost is: "<<deliveryCost<<endl;
+            cout<<"Your Delivery cost is : "<<deliveryCost<<endl;
 
-            cout<<"Your Ground Total cost is: "<<(versaceQuantity*versacePrice);
+            cout<<"Your Ground Total cost is : "<<(versaceQuantity*versacePrice);
             cout<< + ((versaceQuantity*versacePrice)*tax) + deliveryCost<<endl;
 
             cout<<"Thank you for patronizing us; we will deliver it to you within 24hours"<<endl;
@@ -593,9 +593,9 @@ int get_Adi()
 
     cout<<"\tWe have quality Shirts of one year Guarantee"<<endl;
 
-    cout<<"The Price for One Shirt is: "<<AdidasShirtsPrice<<endl;
+    cout<<"The Price for One Shirt is : "<<AdidasShirtsPrice<<endl;
 
-    cout<<"The quantity we have is: "<<AdidasShirtsQty<<endl;
+    cout<<"The quantity we have is : "<<AdidasShirtsQty<<endl;
 
     cout<<"\tEnter the Quantity You Want to Purchase"<<endl;
 
@@ -611,11 +611,11 @@ int get_Adi()
 
         cout<<"\t You've Entered "<<AdidasShirtsQty1<<"Quantity"<<endl;
 
-        cout<<"Your cost is: "<<AdidasShirtsQty*AdidasShirtsPrice<<endl;
+        cout<<"Your cost is : "<<AdidasShirtsQty*AdidasShirtsPrice<<endl;
 
-        cout<<"Your tax payment is: "<<(AdidasShirtsQty*AdidasShirtsPrice)*tax<<endl;
+        cout<<"Your tax payment is : "<<(AdidasShirtsQty*AdidasShirtsPrice)*tax<<endl;
 
-        cout<<"Your Total Cost is: "<<(AdidasShirtsQty*AdidasShirtsPrice);
+        cout<<"Your Total Cost is : "<<(AdidasShirtsQty*AdidasShirtsPrice);
         cout<< + ((AdidasShirtsQty*AdidasShirtsPrice)*tax)<<endl;
 
         cout<<"\tDo You Want to us to deliver the goods to you?"<<endl;
@@ -626,9 +626,9 @@ int get_Adi()
 
         if(choice==1)
         {
-            cout<<"Your Delivery cost is: "<<deliveryCost<<endl;
+            cout<<"Your Delivery cost is : "<<deliveryCost<<endl;
 
-            cout<<"Your Ground Total cost is: "<<(AdidasShirtsQty*AdidasShirtsPrice);
+            cout<<"Your Ground Total cost is : "<<(AdidasShirtsQty*AdidasShirtsPrice);
             cout<< + ((AdidasShirtsQty*AdidasShirtsPrice)*tax) + deliveryCost<<endl;
 
             cout<<"Thank you for patronizing us; we will deliver it to you within 24hours"<<endl;
@@ -690,9 +690,9 @@ int get_Nikes()
 
     cout<<"\tWe have quality Shirts of one year Guarantee"<<endl;
 
-    cout<<"The Price for One Shirt is: "<<nikesPrice<<endl;
+    cout<<"The Price for One Shirt is : "<<nikesPrice<<endl;
 
-    cout<<"The quantity we have is: "<<nikesQuantity<<endl;
+    cout<<"The quantity we have is : "<<nikesQuantity<<endl;
 
     cout<<"\tEnter the Quantity You Want to Purchase"<<endl;
 
@@ -708,11 +708,11 @@ int get_Nikes()
 
         cout<<"\t You've Entered "<<AdidasShirtsQty1<<"Quantity"<<endl;
 
-        cout<<"Your cost is: "<<nikesQuantity*nikesPrice<<endl;
+        cout<<"Your cost is : "<<nikesQuantity*nikesPrice<<endl;
 
-        cout<<"Your tax payment is: "<<(nikesQuantity*nikesPrice)*tax<<endl;
+        cout<<"Your tax payment is : "<<(nikesQuantity*nikesPrice)*tax<<endl;
 
-        cout<<"Your Total Cost is: "<<(nikesQuantity*nikesPrice);
+        cout<<"Your Total Cost is : "<<(nikesQuantity*nikesPrice);
         cout<< + ((nikesQuantity*nikesPrice)*tax)<<endl;
 
         cout<<"\tDo You Want to us to deliver the goods to you?"<<endl;
@@ -723,9 +723,9 @@ int get_Nikes()
 
         if(choice==1)
         {
-            cout<<"Your Delivery cost is: "<<deliveryCost<<endl;
+            cout<<"Your Delivery cost is : "<<deliveryCost<<endl;
 
-            cout<<"Your Ground Total cost is: "<<(nikesQuantity*nikesPrice);
+            cout<<"Your Ground Total cost is : "<<(nikesQuantity*nikesPrice);
             cout<< + ((nikesQuantity*nikesPrice)*tax) + deliveryCost<<endl;
 
             cout<<"Thank you for patronizing us; we will deliver it to you within 24hours"<<endl;
@@ -788,9 +788,9 @@ int get_PaulSmith()
 
     cout<<"\tWe have quality Wrist Watches of one year Guarantee"<<endl;
 
-    cout<<"The Price for One Wrist Watch is: "<<paulSmithPrice<<endl;
+    cout<<"The Price for One Wrist Watch is : "<<paulSmithPrice<<endl;
 
-    cout<<"The quantity we have is: "<<paulSmithQuantity<<endl;
+    cout<<"The quantity we have is : "<<paulSmithQuantity<<endl;
 
     cout<<"\tEnter the Quantity You Want to Purchase"<<endl;
 
@@ -806,11 +806,11 @@ int get_PaulSmith()
 
         cout<<"\t You've Entered "<<paulSmithQuantity1<<"Quantity"<<endl;
 
-        cout<<"Your cost is: "<<paulSmithQuantity*paulSmithPrice<<endl;
+        cout<<"Your cost is : "<<paulSmithQuantity*paulSmithPrice<<endl;
 
-        cout<<"Your tax payment is: "<<(paulSmithQuantity*paulSmithPrice)*tax<<endl;
+        cout<<"Your tax payment is : "<<(paulSmithQuantity*paulSmithPrice)*tax<<endl;
 
-        cout<<"Your Total Cost is: "<<(paulSmithQuantity*paulSmithPrice);
+        cout<<"Your Total Cost is : "<<(paulSmithQuantity*paulSmithPrice);
         cout<< + ((paulSmithQuantity*paulSmithPrice)*tax)<<endl;
 
         cout<<"\tDo You Want to us to deliver the goods to you?"<<endl;
@@ -821,7 +821,7 @@ int get_PaulSmith()
 
         if(choice==1)
         {
-            cout<<"Your Delivery cost is: "<<deliveryCost<<endl;
+            cout<<"Your Delivery cost is : "<<deliveryCost<<endl;
 
             cout<<"Your Ground Total cost is: "<<(paulSmithQuantity*paulSmithPrice);
             cout<< + ((paulSmithQuantity*paulSmithPrice)*tax) + deliveryCost<<endl;
@@ -886,9 +886,9 @@ int get_Rolex()
 
     cout<<"\tWe have quality Wrist Watches of one year Guarantee"<<endl;
 
-    cout<<"The Price for One Wrist Watch is: "<<rolexPrice<<endl;
+    cout<<"The Price for One Wrist Watch is : "<<rolexPrice<<endl;
 
-    cout<<"The quantity we have is: "<<rolexQuantity<<endl;
+    cout<<"The quantity we have is : "<<rolexQuantity<<endl;
 
     cout<<"\tEnter the Quantity You Want to Purchase"<<endl;
 
@@ -904,11 +904,11 @@ int get_Rolex()
 
         cout<<"\t You've Entered "<<rolexQuantity1<<"Quantity"<<endl;
 
-        cout<<"Your cost is: "<<rolexQuantity*rolexPrice<<endl;
+        cout<<"Your cost is : "<<rolexQuantity*rolexPrice<<endl;
 
-        cout<<"Your tax payment is: "<<(rolexQuantity*rolexPrice)*tax<<endl;
+        cout<<"Your tax payment is : "<<(rolexQuantity*rolexPrice)*tax<<endl;
 
-        cout<<"Your Total Cost is: "<<(rolexQuantity*rolexPrice);
+        cout<<"Your Total Cost is : "<<(rolexQuantity*rolexPrice);
         cout<< + ((rolexQuantity*rolexPrice)*tax)<<endl;
 
         cout<<"\tDo You Want to us to deliver the goods to you?"<<endl;
@@ -921,7 +921,7 @@ int get_Rolex()
         {
             cout<<"Your Delivery cost is: "<<deliveryCost<<endl;
 
-            cout<<"Your Ground Total cost is: "<<(rolexQuantity*rolexPrice);
+            cout<<"Your Ground Total cost is : "<<(rolexQuantity*rolexPrice);
             cout<< + ((rolexQuantity*rolexPrice)*tax) + deliveryCost<<endl;
 
             cout<<"Thank you for patronizing us; we will deliver it to you within 24hours"<<endl;
@@ -984,9 +984,9 @@ int get_Hublot()
 
     cout<<"\tWe have quality Wrist Watches of one year Guarantee"<<endl;
 
-    cout<<"The Price for One Wrist Watch is: "<<hublotPrice<<endl;
+    cout<<"The Price for One Wrist Watch is : "<<hublotPrice<<endl;
 
-    cout<<"The quantity we have is: "<<hublotQuantity<<endl;
+    cout<<"The quantity we have is : "<<hublotQuantity<<endl;
 
     cout<<"\tEnter the Quantity You Want to Purchase"<<endl;
 
@@ -1002,11 +1002,11 @@ int get_Hublot()
 
         cout<<"\t You've Entered "<<hublotQuantity1<<"Quantity"<<endl;
 
-        cout<<"Your cost is: "<<hublotQuantity*hublotPrice<<endl;
+        cout<<"Your cost is : "<<hublotQuantity*hublotPrice<<endl;
 
-        cout<<"Your tax payment is: "<<(hublotQuantity*hublotPrice)*tax<<endl;
+        cout<<"Your tax payment is : "<<(hublotQuantity*hublotPrice)*tax<<endl;
 
-        cout<<"Your Total Cost is: "<<(hublotQuantity*hublotPrice);
+        cout<<"Your Total Cost is : "<<(hublotQuantity*hublotPrice);
         cout<< + ((hublotQuantity*hublotPrice)*tax)<<endl;
 
         cout<<"\tDo You Want to us to deliver the goods to you?"<<endl;
@@ -1017,9 +1017,9 @@ int get_Hublot()
 
         if(choice==1)
         {
-            cout<<"Your Delivery cost is: "<<deliveryCost<<endl;
+            cout<<"Your Delivery cost is : "<<deliveryCost<<endl;
 
-            cout<<"Your Ground Total cost is: "<<(hublotQuantity*hublotPrice);
+            cout<<"Your Ground Total cost is : "<<(hublotQuantity*hublotPrice);
             cout<< + ((hublotQuantity*hublotPrice)*tax) + deliveryCost<<endl;
 
             cout<<"Thank you for patronizing us; we will deliver it to you within 24hours"<<endl;
